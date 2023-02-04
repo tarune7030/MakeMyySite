@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MakeMyySite</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/7c24c77b50.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <video autoplay loop muted plays-inline class="back-video">
+        <source src="images/background-video.mp4" type="video/mp4" />
+      </video>
+      <div class="container">
+        <nav>
+          <img src="" class="logo" />
+          <ul id="side-menu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <h1>WELCOME TO <span>MAKEMYYSITE</span></h1>
+          <h2>
+            <a
+              href=""
+              class="typewrite"
+              data-period="2000"
+              data-type='[ "WE ARE CREATIVE.", "WE LOVE DESIGN.", "WE LOVE TO DEVELOP." ]'
+            >
+            </a>
+          </h2>
+        </div>
+      </div>
+    </div>
+
+    <!-- ********************************************service*********************************************************** -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">SERVICES</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Web Design</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At odit
+              beatae ullam autem ut soluta laboriosam a iure libero placeat
+              impedit commodi suscipit, consequatur doloribus quo quia, earum
+              minus officia.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Website Building</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At odit
+              beatae ullam autem ut soluta laboriosam a iure libero placeat
+              impedit commodi suscipit, consequatur doloribus quo quia, earum
+              minus officia.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-searchengin"></i>
+            <h2>SEO</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. At odit
+              beatae ullam autem ut soluta laboriosam a iure libero placeat
+              impedit commodi suscipit, consequatur doloribus quo quia, earum
+              minus officia.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ************************************************* about *************************************************************** -->
+    <div id="about">
+      <div class="container">
+        <h1 class="sub-title">ABOUT US</h1>
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/coding2.gif" />
+          </div>
+          <div class="about-col-2">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non at
+              modi similique accusamus. Sequi porro, architecto obcaecati non
+              qui dolore consectetur quae, repellendus quas earum quis
+              blanditiis modi. Rem, a.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link">Skills</p>
+            </div>
+            <div class="tab-contents">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App interfaces</li>
+                <li><span>Web Development</span><br />Website Building</li>
+                <li><span>SEO</span><br />Search Engine Optimizaation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- **************************************************our work************************************************* -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">OUR WORK</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/background-image2.jpeg" />
+            <div class="layer">
+              <h3>Dummy</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque
+                velit reprehenderit illum ex ipsum modi corrupti vitae aperiam.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/background-image3.jpg" />
+            <div class="layer">
+              <h3>Dummy</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque
+                velit reprehenderit illum ex ipsum modi corrupti vitae aperiam.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/background-image4.jpg" />
+            <div class="layer">
+              <h3>Dummy</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque
+                velit reprehenderit illum ex ipsum modi corrupti vitae aperiam.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+    <!-- ******************************************contact******************************************************* -->
+
+    <div id="contact">
+      <div class="container">
+        <h1 class="sub-title">CONTACT</h1>
+        <div class="row">
+          <div class="contact-right">
+            <form id="contactform" method="post" action="">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <input
+                type="text"
+                maxlength="10"
+                name="Mobile"
+                placeholder="Your Mobile No"
+                required
+              />
+
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+          <div class="contact-left">
+            <h1 class="footer">Reach Us</h1>
+            <p>
+              <i class="fa-sharp fa-solid fa-paper-plane"></i
+              >makemyysite@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>+91-9561249105</p>
+            <p><i class="fa-solid fa-phone"></i>+91-7030483834</p>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © MakeMyySite.</p>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  var TxtType = function (el, toRotate, period) {
+    this.toRotate = toRotate;
+    this.el = el;
+    this.loopNum = 0;
+    this.period = parseInt(period, 10) || 2000;
+    this.txt = "";
+    this.tick();
+    this.isDeleting = false;
+  };
+
+  TxtType.prototype.tick = function () {
+    var i = this.loopNum % this.toRotate.length;
+    var fullTxt = this.toRotate[i];
+
+    if (this.isDeleting) {
+      this.txt = fullTxt.substring(0, this.txt.length - 1);
+    } else {
+      this.txt = fullTxt.substring(0, this.txt.length + 1);
+    }
+
+    this.el.innerHTML = '<span class="wrap">' + this.txt + "</span>";
+
+    var that = this;
+    var delta = 200 - Math.random() * 100;
+
+    if (this.isDeleting) {
+      delta /= 2;
+    }
+
+    if (!this.isDeleting && this.txt === fullTxt) {
+      delta = this.period;
+      this.isDeleting = true;
+    } else if (this.isDeleting && this.txt === "") {
+      this.isDeleting = false;
+      this.loopNum++;
+      delta = 500;
+    }
+
+    setTimeout(function () {
+      that.tick();
+    }, delta);
+  };
+
+  window.onload = function () {
+    var elements = document.getElementsByClassName("typewrite");
+    for (var i = 0; i < elements.length; i++) {
+      var toRotate = elements[i].getAttribute("data-type");
+      var period = elements[i].getAttribute("data-period");
+      if (toRotate) {
+        new TxtType(elements[i], JSON.parse(toRotate), period);
+      }
+    }
+    // INJECT CSS
+    var css = document.createElement("style");
+    css.type = "text/css";
+    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid red}";
+    document.body.appendChild(css);
+  };
+  // *************************side menu*********************************************
+
+  var sidemenu = document.getElementById("side-menu");
+
+  function openmenu() {
+    sidemenu.style.right = "0";
+  }
+  function closemenu() {
+    sidemenu.style.right = "-200px";
+  }
+  // *******************************************************
+</script>
+<!-- ************************************ -->
+<script>
+  const scriptURL =
+    "https://script.google.com/macros/s/AKfycbzQYGGHNvRxFVfa_tC5LbZlGBlrEhrLfUfH7DlZjLbF8fHNEATK7Imj0kKR751CChs6/exec";
+  const form = document.forms["contactform"];
+
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    fetch(scriptURL, { method: "POST", body: new FormData(form) })
+      .then((response) =>
+        alert("Thank you! your form is submitted successfully.")
+      )
+      .then(() => {
+        window.location.reload();
+      })
+      .catch((error) => console.error("Error!", error.message));
+  });
+</script>
