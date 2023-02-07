@@ -325,12 +325,23 @@ nav ul li a:hover::after {
   margin-right: 20px;
 }
 
-.contact-left p {
-  margin-top: 30px;
+.about-col-3 {
+  flex-basis: 35%;
+  border-radius: 15px;
 }
-.contact-left p i {
-  color: #ff004f;
-  font-size: 25px;
+
+.about-col-4 {
+  height: 385px;
+  width: 649px;
+  border-radius: 14px;
+  padding: 10px 20px;
+  margin-top: 14px;
+}
+.about-col-4 img {
+  width: 91%;
+  height: 108%;
+  border-radius: 15px;
+  border: 1px solid blue;
 }
 .btn.btn2 {
   display: inline-block;
@@ -338,6 +349,14 @@ nav ul li a:hover::after {
   margin-left: 15px;
   border-radius: 8px;
   border: none;
+}
+.contact-left p {
+  margin-top: 30px;
+  margin-left: 145px;
+}
+.contact-left p i {
+  color: #ff004f;
+  font-size: 25px;
 }
 .contact-right form {
   width: 35%;
@@ -348,11 +367,15 @@ form textarea {
   width: 100%;
   padding: 15px;
   margin: 15px;
-  color: #fff;
+  color: black;
   font-size: 18px;
-  background: black;
+  background: rgb(123, 122, 122);
   border-radius: 12px;
   border: 1px solid rgb(30, 30, 30);
+}
+form input::placeholder,
+form textarea::placeholder {
+  color: #080808;
 }
 form .btn2:hover {
   background-color: #690a26;
@@ -385,7 +408,7 @@ form .btn2 {
 .footer {
   position: relative;
   max-width: 500px;
-  margin: 48px auto;
+  margin: 28px;
   text-align: center;
 }
 
@@ -455,12 +478,6 @@ nav .fa-solid {
     left: 25px;
     cursor: pointer;
   }
-  .logo {
-    width: 181px;
-    height: 209px;
-    margin-top: -32px;
-    margin-left: -26px;
-  }
   .sub-title {
     font-size: 40px;
   }
@@ -478,12 +495,9 @@ nav .fa-solid {
     font-size: 16px;
     margin-right: 20px;
   }
-  .contact-left,
-  .contact-right {
-    flex-basis: 100%;
-  }
   .copyright {
     font-size: 14px;
+    text-align: center;
   }
   .sub-title:after {
     content: " ";
@@ -505,7 +519,29 @@ nav .fa-solid {
     left: -50px;
     background: #ff004f;
   }
-  .contact-right form {
-    width: 100%;
+  form input,
+  form textarea {
+    width: 168%;
+    margin: 15px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 12px;
+    border: 1px solid rgb(30, 30, 30);
+  }
+  .about-col-4 img {
+    width: 99%;
+    height: 82%;
+    border-radius: 15px;
+    border: 1px solid blue;
+  }
+  .logo {
+    width: 181px;
+    height: 209px;
+    margin-top: -32px;
+    margin-left: -26px;
+  }
+  .contact-left p {
+    margin-top: 30px;
+    margin-left: 85px;
   }
 }
