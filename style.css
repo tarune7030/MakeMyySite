@@ -322,7 +322,6 @@ nav ul li a:hover::after {
 .fa-solid,
 .fas {
   font-weight: 900;
-  margin-right: 20px;
 }
 
 .about-col-3 {
@@ -341,7 +340,6 @@ nav ul li a:hover::after {
   width: 91%;
   height: 108%;
   border-radius: 15px;
-  border: 1px solid blue;
 }
 .btn.btn2 {
   display: inline-block;
