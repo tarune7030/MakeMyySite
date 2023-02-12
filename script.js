@@ -67,7 +67,7 @@ function openmenu() {
 function closemenu() {
   sidemenu.style.right = "-200px";
 }
-
+// *********************************************************************************************************************
 const scriptURL =
   "https://script.google.com/macros/s/AKfycbzzIvFc2-cq8DUTlWA5Z7zi0IQ9CatA6bTqEpzj4rmt6ET5HEE_TlSWiafyutKgmHZT/exec";
 const form = document.forms["myForm"];

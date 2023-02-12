@@ -419,7 +419,7 @@ form .btn2 {
 nav .fa-solid {
   display: none;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1400px) {
   /* #header {
     background-image: url(phone-background.png);
   } */
@@ -438,7 +438,7 @@ nav .fa-solid {
   .header-text h1 span {
     color: white;
   }
-  typewrite {
+  .typewrite {
     color: #ff004f;
     text-decoration: none;
     font-weight: lighter;
@@ -500,12 +500,12 @@ nav .fa-solid {
   .sub-title:after {
     content: " ";
     height: 5px;
-    width: 100px;
+    width: 75px;
     background: #ff004f;
     display: block;
     position: absolute;
     top: 50%;
-    right: -50px;
+    right: -39px;
   }
   .sub-title:before {
     content: " ";
@@ -514,7 +514,7 @@ nav .fa-solid {
     width: 100px;
     position: absolute;
     top: 50%;
-    left: -50px;
+    left: -64px;
     background: #ff004f;
   }
   form input,
@@ -527,13 +527,14 @@ nav .fa-solid {
     border: 1px solid rgb(30, 30, 30);
   }
   .about-col-4 img {
-    width: 99%;
+    /* width: 99%;
     height: 82%;
     border-radius: 15px;
-    border: 1px solid blue;
+    border: 1px solid blue; */
+    display: none;
   }
   .logo {
-    width: 181px;
+    width: 200px;
     height: 209px;
     margin-top: -32px;
     margin-left: -26px;
